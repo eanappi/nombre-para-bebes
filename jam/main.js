@@ -6,7 +6,7 @@ document.querySelectorAll('#home #female, #male').forEach((buttons) => {
     let idButton = element.toElement.id
     let elementButtonSales = document.querySelector('#btn-sales')
 
-    choiceNames(idButton)
-    elementButtonSales.classList.remove('hide')
+    choiceNames(idButton) // Update name
+    elementButtonSales.classList.remove('hide') // Show button by sales
   })
 })
