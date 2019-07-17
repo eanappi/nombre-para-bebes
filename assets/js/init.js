@@ -100,11 +100,18 @@ jQuery(document).ready(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
-
+/*
     $("#home.backstretched").backstretch([
       "assets/images/hero-bg.jpg",
       "assets/images/gallery-6.jpg",
       "assets/images/section-bg-2.jpg",
+    ],{duration: 4000, fade: 800});
+  */  
+    $("#home.backstretched").backstretch([
+      "assets/images/mobilechallenge-4k-wallpaper-baby-1799736.jpg",
+      "assets/images/baby-children-cute-264109.jpg",
+      "assets/images/angry-baby-baby-wallpaper-1803641.jpg",
+      "assets/images/baby-babysitter-babysitting-51953.jpg"
     ],{duration: 4000, fade: 800});
     
 });
