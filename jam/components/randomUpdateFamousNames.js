@@ -1,7 +1,7 @@
 import listNamesFamous from '../content/list_names_famous.js'
 
-export default () => {
-  let el = document.querySelector('#famous-names')
+export default (element) => {
+  let el = document.querySelector(element)
   let indexRandomName = Math.floor((Math.random() * 99) + 0)
   let definitionName = listNamesFamous()[indexRandomName]
   let template = `
