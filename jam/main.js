@@ -10,7 +10,7 @@ import amazonGridProduct from './components/amazonGridProduct.js'
   // Gender listen button
   document.querySelectorAll('#home #female, #male').forEach((buttons) => {
     buttons.addEventListener("click", (element) => {
-      let idButton = element.toElement.id
+      let idButton = element.target.id
       let elementButtonSales = document.querySelector('#btn-sales')
 
       choiceNames(idButton) // Update name
